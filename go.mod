@@ -1,9 +1,11 @@
 module github.com/hashicorp/packer-plugin-googlecompute
 
-go 1.18
+go 1.24
 
 require (
 	cloud.google.com/go/compute/metadata v0.1.1
+	github.com/gofrs/uuid v4.0.0+incompatible
+	github.com/google/go-cmp v0.5.9
 	github.com/hashicorp/hcl/v2 v2.13.0
 	github.com/hashicorp/packer-plugin-sdk v0.4.0
 	github.com/hashicorp/vault/api v1.1.1
@@ -19,7 +21,7 @@ require (
 	cloud.google.com/go/compute v1.12.1 // indirect
 	cloud.google.com/go/iam v0.6.0 // indirect
 	cloud.google.com/go/storage v1.27.0 // indirect
-	github.com/Azure/go-ntlmssp v0.0.0-20200615164410-66371956d46c // indirect
+	github.com/Azure/go-ntlmssp v0.1.1 // indirect
 	github.com/ChrisTrenkamp/goxpath v0.0.0-20210404020558-97928f7e12b6 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
@@ -31,11 +33,9 @@ require (
 	github.com/dylanmei/iso8601 v0.1.0 // indirect
 	github.com/fatih/color v1.12.0 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
-	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.6.0 // indirect
